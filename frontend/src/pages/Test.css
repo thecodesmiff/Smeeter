@@ -1,0 +1,28 @@
+/* 
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2.5fr;
+}
+
+.left, .right, .center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.center {
+    overflow: scroll;
+    padding: 0 10px 0 10px;
+    border: 1px solid #444;
+}
+
+.left {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+} */
